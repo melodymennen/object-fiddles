@@ -7,8 +7,10 @@
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
 
   //Code here
-
-
+var me = {
+  name: 'Melody',
+  age: 24
+};
 
 
 
@@ -22,7 +24,14 @@
 
   //Code here
 
-
+var favoriteThings = {
+  band:'PVRIS',
+  food: 'pizza',
+  person: 'my mom',
+  book:'the paper magician',
+  movie:'stick it',
+  holiday: 'christmas'
+};
 
 
 
@@ -32,7 +41,8 @@
 
   //Code here
 
-
+favoriteThings.car = 'Audi'
+favoriteThings.brand = 'Sephora'
 
 
 
@@ -40,6 +50,8 @@
 
   //Code here
 
+favoriteThings.book = 'Harry Potter'
+favoriteThings.food = 'Chicken Nuggets'
 
 
 
@@ -60,7 +72,11 @@ that is named color, with the value being the color of your backpack.
 
   //Code here
 
-
+var backPack = {
+}
+var item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'grey'
 
 
 
